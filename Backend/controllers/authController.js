@@ -30,7 +30,7 @@ exports.registerUser = (req, res) => {
     });
   });
 };
-
+//
 // POST /login
 exports.loginUser = (req, res) => {
   const { email, password } = req.body;
